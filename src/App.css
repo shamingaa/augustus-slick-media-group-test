@@ -54,6 +54,29 @@ html {
   margin-left: 5rem;
 }
 
+.movies-section {
+  padding: 4rem;
+}
+
+.search-section {
+  width: 100%;
+}
+
+#search-label {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+}
+
+#search-input {
+  width: 100%;
+  height: 2.5rem;
+  padding-left: 1rem;
+}
+
 /* ================ MEDIA QUERIES ========================= */
 
 @media screen and (max-width: 70.68rem) {

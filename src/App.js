@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./components/Banner";
+import SearchSection from "./components/SearchSection";
 import TopNavBar from "./components/TopNavBar";
 
 function App() {
@@ -7,6 +8,9 @@ function App() {
     <div className="App">
       <TopNavBar />
       <Banner />
+      <div className="movies-section">
+        <SearchSection />
+      </div>
     </div>
   );
 }
