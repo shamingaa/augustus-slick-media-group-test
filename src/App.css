@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "DM Sans";
+  src: local("DM Sans"), url(./fonts/DMSans-Bold.ttf) format("truetype");
+}
+
 *,
 *::before,
 *::after {
@@ -21,19 +26,49 @@ html {
 .logo {
   font-size: 3rem;
   color: #fff;
-  border: .2rem solid #fff;
+  border: 0.1rem solid #fff;
   padding: 1rem 1.2rem;
   margin-left: 5rem;
 }
 
+.banner {
+  background-image: url("./assets/bannerImg.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.banner-title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7.2rem;
+  line-height: 9.4rem;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+  width: 20.82rem;
+  margin-left: 5rem;
+}
 
 /* ================ MEDIA QUERIES ========================= */
 
-@media screen and (max-width: 768px) {
-  .top-navbar{
+@media screen and (max-width: 70.68rem) {
+  .top-navbar {
     justify-content: center;
   }
-  .logo{
+  .logo {
     margin: 0;
+  }
+  .banner {
+    justify-content: center;
+  }
+  .banner-title {
+    margin: 0;
+    width: 50%;
+    text-align: center;
   }
 }
