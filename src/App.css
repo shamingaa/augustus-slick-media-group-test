@@ -92,11 +92,18 @@ html {
   display: flex;
 }
 
+.before-wrapper{
+  display: flex;
+}
+
+
 .card {
-  width: 30.8rem;
-  height: 30.8rem;
+  width: 20.8rem;
+  height: 20.8rem;
   margin-right: 1.5rem;
   position: relative;
+  background-color: #e9e9e9b9;
+  border-radius: 0.8rem;
 }
 
 
@@ -114,7 +121,7 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #fff;
   padding: 1rem;
